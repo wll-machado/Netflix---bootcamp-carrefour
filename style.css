@@ -1,0 +1,25 @@
+*{
+    font-family: 'Bebas Neue', cursive;
+    color: rgb(252, 247, 247);
+}
+
+.mobile-menu {
+    background-color: black;
+    border-top: 2px solid rgb(250, 6, 6) ;
+    width: 150px;
+    height: 0;
+    padding-top: 10px;
+    display: none;
+    align-items: center;
+    flex-direction: column;
+    position: absolute;
+    right: 5px;
+    top: 65px;
+    
+}
+
+.mobile-menu.on {
+    display: flex;
+    height: 150px;
+    
+}
