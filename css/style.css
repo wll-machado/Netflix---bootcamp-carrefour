@@ -8,7 +8,16 @@ body{
     background-color: black;
 }
 
-
+.socialMedia{
+    position: absolute;
+    font-size: .8rem;
+    top: 33%;
+    right: 30%;
+}
+.socialMedia a{
+    text-decoration: none;
+    color: red;
+}
 /* Navbar / mobile navbar*/
 .navbar {
     position: fixed;
