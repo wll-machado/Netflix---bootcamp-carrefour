@@ -24,6 +24,7 @@ $('.owl-carousel').owlCarousel({
   autoplay:true,
   autoplayTimeout:3000,
   nav:true,
+  autoplayHoverPause:true,
   responsive:{
       0:{
           items:2
@@ -36,3 +37,4 @@ $('.owl-carousel').owlCarousel({
       }
   }
 })
+
